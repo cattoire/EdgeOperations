@@ -1,0 +1,20 @@
+{
+    "org": "$HZN_ORG_ID",
+    "label": "$SERVICE_NAME for $ARCH",
+    "description": "",
+    "public": true,
+    "documentation": "",
+    "url": "$SERVICE_NAME",
+    "version": "$SERVICE_VERSION",
+    "arch": "$ARCH",
+    "sharable": "multiple",
+    "requiredServices": [],
+    "deployment": {
+        "services": {
+            "cpu": {
+                "image": "${DOCKER_IMAGE_ID}${ARCH}_${DOCKER_IMAGE_NAME}",
+                "privileged": false
+            }
+        }
+    }
+}

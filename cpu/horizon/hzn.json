@@ -1,0 +1,10 @@
+{
+    "HZN_ORG_ID": "local-cluster",
+    "MetadataVars": {
+        "DOCKER_IMAGE_ID": "openhorizon/",
+        "DOCKER_IMAGE_NAME": "cpu",
+        "SERVICE_NAME": "dla.cpu.service",
+        "SERVICE_VERSION": "1.5.1",
+        "ARCH": "ARM-PI4"
+    }
+}

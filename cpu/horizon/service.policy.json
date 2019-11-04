@@ -1,0 +1,6 @@
+{
+    "properties": [
+        {"name":"function","value":"general"}
+    ],
+    "constraints": ["model == PI4"]
+}

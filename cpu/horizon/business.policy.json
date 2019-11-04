@@ -1,0 +1,24 @@
+{
+  "label": "dla cpu service policy",  /* Business policy label. */
+  "description": "CPU service by dla",  /* Business policy description. */
+  "service": {
+    "name": "$SERVICE_NAME",  /* The name of the service. */
+    "org": "$HZN_ORG_ID",  /* The org of the service. */
+    "arch": "$ARCH",  /* Can be omitted. */
+    "serviceVersions": [  /* A list of service versions. */
+      {
+        "version": "$SERVICE_VERSION",
+        "priority":{}
+      }
+    ]
+  },
+  "properties": [  /* A list of policy properties that describe the object. */
+    {
+      "name": "purpose",
+      "value": "general"
+    }
+  ],
+  "constraints": [  /* A list of constraint expressions of the form <property name> <operator> <property value>, separated by boolean operators AND (&&) or OR (||). */
+    "model == PI4"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "properties": [
+        {
+          "name":"function",
+          "value":"light-control"
+        }
+    ],
+    "constraints": [
+      "model == PI4"
+    ]
+}
