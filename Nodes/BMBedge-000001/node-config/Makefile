@@ -10,15 +10,11 @@ set:
 	export HZN_EXCHANGE_USER_AUTH='iamapikey:p4J5UA_LxQ0dCEqaRyIgfgePyEDir3O5m3tLauW8A-LD'
 	export HZN_NODE_AUTH='BMBedge-000001:myedgeforever'
 
-register-node:
-	hzn exchange node create -n 'BMBedge-000001:myedgeforever'
-	hzn node list
-
 unregister-node:
 	hzn unregister -fr
 	hzn node list
 
-register-policy:
+register-node:
 	hzn register --policy=BMBedge-node.policy.json
 	hzn node list
 
