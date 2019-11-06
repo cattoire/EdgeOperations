@@ -18,5 +18,5 @@
       "value": "light-control"
     }
   ],
-  "constraints": ["light == blue"]
+  "constraints": ["light == green"]
 }
