@@ -18,12 +18,3 @@ publish-spol:
 
 remove-spol:
 	hzn exchange service removepolicy dla.cpu.service_1.5.1_arm -v
-
-publish-nodepol:
-	hzn exchange node addpolicy -f ~/services/node.policy.json booz.policy.test.node.vm
-	hzn exchange node listpolicy booz.policy.test.node.vm
-
-list-all-policies:
-	hzn exchange node listpolicy
-	hzn exchange service listpolicy dla.cpu.service_1.5.0_arm -v
-	hzn exchange business listpolicy dla.cpu.policy -v
